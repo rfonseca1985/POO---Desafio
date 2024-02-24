@@ -1,0 +1,25 @@
+Diagrama de Classes UML:
+Interface ReprodutorMusical:
+
+Método: play()
+Método: pause()
+Método: nextTrack()
+Método: previousTrack()
+Interface AparelhoTelefonico:
+
+Método: makeCall(String phoneNumber)
+Método: receiveCall(String callerName)
+Método: endCall()
+Interface NavegadorInternet:
+
+Método: openURL(String url)
+Método: browse()
+Método: closeBrowser()
+Classe iPhone (implementa ReprodutorMusical, AparelhoTelefonico, NavegadorInternet):
+
+Atributos:
+batteryLevel: int
+modelName: String
+Métodos:
+Implementa os métodos das interfaces (ReprodutorMusical, AparelhoTelefonico, NavegadorInternet).
+Métodos específicos para controle do iPhone.
